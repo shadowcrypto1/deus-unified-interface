@@ -140,11 +140,14 @@ export default function Menu() {
             </Row>
           </Link>
 
-          <ExternalLink href="https://docs.deus.finance/contracts/disclaimer">
-            <Row onClick={() => toggle()}>
+          <Link href="/terms" passHref>
+            <Row active={router.route.includes('/terms')}>
               <div>Terms</div>
+              {/* <IconWrapper>
+                <VeDeusIcon size={20} />
+              </IconWrapper> */}
             </Row>
-          </ExternalLink>
+          </Link>
 
           <ExternalLink href="https://twitter.com/deusdao">
             <Row onClick={() => toggle()}>

@@ -23,5 +23,10 @@
     "text": "veDEUS",
     "path": "/vest",
     "exact": true
+  },
+  {
+    "text": "Terms",
+    "path": "/terms",
+    "exact": true
   }
 ]
